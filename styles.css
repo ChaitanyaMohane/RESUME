@@ -6,6 +6,13 @@
 	font-family: sans-serif;
 }
 
+@media screen and (max-width: 700px) {
+	#about{
+		  visibility: hidden;
+   		}
+   }
+
+
 body{
 	background: linear-gradient(to right, #9b9a9c, #403f41);
 }
@@ -128,7 +135,7 @@ a:link {
 }
 
 
-.header .about{
+#about{
     margin-top: 20px;
     font-size: 20px;
 	line-height: 30px;
